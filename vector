@@ -1,0 +1,28 @@
+Example of vector :
+
+
+
+public class CodeVectorsExample {   
+ public static void main(String[] args) {
+// Creating a vector (array) of integers      
+  int[] numbers = {1, 2, 3, 4, 5};        
+// Accessing and printing elements of the vector       
+ for (int i = 0; i < numbers.length; i++)
+ {            System.out.println("Element at index " + i + ": " + numbers[i]);      
+             } 
+        }
+  }
+
+/////////////
+
+Driver class :
+
+
+ public static void main(String[] args) {
+        // Creating an instance of CodeVectorsExample
+
+        CodeVectorsExample example = new CodeVectorsExample();
+        // Invoking the main method of CodeVectorsExample
+        example.main(args);
+    }
+}
